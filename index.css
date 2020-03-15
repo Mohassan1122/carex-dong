@@ -1,0 +1,102 @@
+.top-container {
+    background-image: url(images/bee.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3% 15%;
+}
+h1{
+    
+    font-weight: bold;
+    text-transform: capitalize; 
+    padding: 0 20px 0
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.button {
+    padding: 20px;
+}
+.download {
+    margin: 5% 3% 5% 0;
+}
+.image-title{
+    width: 60%;
+    margin-top: 40px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.nav-item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.title {
+    color: white;
+}
+/**feature**/
+#feature {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.col {
+    margin: 20px 0;
+    padding: 30px;
+}
+.pic {
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimony {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: seagreen;
+    background-image: linear-gradient(linear, left top, left bottom, from(seagreen), to(#fff));
+    background-image: -webkit-linear-gradient(top, seagreen, #fff);
+    background-image: -moz-linear-gradient(top, seagreen, #fff);
+    background-image: -ms-linear-gradient(top, seagreen, #fff);
+    background-image: linear-gradient(to bottom, seagreen, #fff);
+}
+.text {
+    padding: 0 20%;
+}
+.kuli {
+    width: 20%;
+    border-radius: 100%;
+}
+footer {
+    background-color: springgreen;
+    padding: 3% 15%;
+    text-align: center;
+}
+.bottom-container {
+    padding: 0 20px 20px 20px;
+}
+.bottom-container a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.bottom-container a:hover {
+    color: lightblue;
+}
+footer p {
+    color: #777;
+}
