@@ -64,15 +64,15 @@ h3 {font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 100%;
     margin: 20px;
 }
-.testimony {
+#testimony {
     padding: 7% 15%;
     text-align: center;
     background-color: seagreen;
-    background-image: linear-gradient(linear, left top, left bottom, from(seagreen), to(#fff));
-    background-image: -webkit-linear-gradient(top, seagreen, #fff);
-    background-image: -moz-linear-gradient(top, seagreen, #fff);
-    background-image: -ms-linear-gradient(top, seagreen, #fff);
-    background-image: linear-gradient(to bottom, seagreen, #fff);
+    background-image: linear-gradient(linear, left top, left bottom, from(seagreen), to(#777));
+    background-image: -webkit-linear-gradient(top, seagreen, #777);
+    background-image: -moz-linear-gradient(top, seagreen, #777);
+    background-image: -ms-linear-gradient(top, seagreen, #777);
+    background-image: linear-gradient(to bottom, seagreen, #777);
 }
 .text {
     padding: 0 20%;
@@ -80,6 +80,10 @@ h3 {font-family: Verdana, Geneva, Tahoma, sans-serif;
 .kuli {
     width: 20%;
     border-radius: 100%;
+}
+
+#pricing {
+    padding: 100px;
 }
 footer {
     background-color: springgreen;
